@@ -21,8 +21,8 @@ export peer_discovery_port=10101
 echo "Node Index = $node_index"
 
 #wget these
-export dataload_file=https://artifactory.slatchdev.local/artifactory/binrepo/nanotrader-dataload.sql
-export schema_file=https://artifactory.slatchdev.local/artifactory/binrepo/nanotrader-schema.sql
+export dataload_file=https://vra7cafe.virtualiseme.com.au/artifactory/nanotrader/nanotrader-dataload.sql
+export schema_file=https://vra7cafe.virtualiseme.com.au/artifactory/nanotrader/nanotrader-schema.sql
 
 wget --no-check-certificate $dataload_file
 mv nanotrader-dataload.sql /tmp

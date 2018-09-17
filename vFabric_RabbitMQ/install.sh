@@ -4,7 +4,7 @@
 export rabbitmq_node_ip=$(hostname -I)
 export rhel_repo=http://mirror.centos.org/centos/5/os
 export rabbitmq_node_port=5672
-export install_tar=https://artifactory.slatchdev.local/artifactory/binrepo/vfabric-rabbit-install-2.4.1.tar.gz
+export install_tar=https://vra7cafe.virtualiseme.com.au/artifactory/nanotrader/vfabric-rabbit-install-2.4.1.tar.gz
 
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 export HOME=/root
