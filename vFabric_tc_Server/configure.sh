@@ -15,7 +15,7 @@ export templates=(bio)
 export use_ajp=no
 export version=5.1
 
-export external_template=https://artifactory.slatchdev.local/artifactory/binrepo/springtrader/springtrader.tgz
+export external_template=https://vra7cafe.virtualiseme.com.au/artifactory/nanotrader/springtrader.tgz
 wget --no-check-certificate $external_template
 mv springtrader.tgz /tmp
 export external_template=/tmp/springtrader.tgz
