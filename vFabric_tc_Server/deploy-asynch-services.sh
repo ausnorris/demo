@@ -8,7 +8,7 @@ export service_restart="/opt/vmware/vfabric-tc-server-standard/springtrader/bin/
 export instance=springtrader
 export context=spring-nanotrader-asynch-services
 
-export war_file=https://artifactory.slatchdev.local/artifactory/binrepo/springtrader/spring-nanotrader-asynch-services-1.0.1.war
+export war_file=https://vra7cafe.virtualiseme.com.au/artifactory/nanotraderspring-nanotrader-asynch-services-1.0.1.war
 wget --no-check-certificate $war_file
 mv spring-nanotrader-asynch-services-1.0.1.war /tmp
 export war_file=/tmp/spring-nanotrader-asynch-services-1.0.1.war
