@@ -11,7 +11,7 @@ export context=spring-nanotrader-asynch-services
 export war_file=https://vra7cafe.virtualiseme.com.au/artifactory/nanotrader/spring-nanotrader-asynch-services-1.0.1.BUILD-SNAPSHOT.war
 wget --no-check-certificate $war_file
 mv spring-nanotrader-asynch-services-1.0.1.war /tmp
-export war_file=/tmp/spring-nanotrader-asynch-services-1.0.1.war
+export war_file=/tmp/spring-nanotrader-asynch-services-1.0.1.BUILD-SNAPSHOT.war
 
 #Function to check the service status using the check of existance of pid file
 # $1 = stop/start stop=check for service stop  start=check for the service start
