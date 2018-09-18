@@ -88,7 +88,8 @@ echo "I_ACCEPT_EULA_LOCATED_AT=${EULA_LOCATION}" >> /etc/vmware/vfabric/accept-v
 if [ -f /etc/redhat-release ] ; then
     DistroBasedOn='RedHat'
     DIST=`cat /etc/redhat-release |sed s/\ release.*//`
-    REV=`cat /etc/redhat-release | sed s/.*release\ // | sed s/\ .*// | awk -F. '{ print $1 }'`
+    #REV=`cat /etc/redhat-release | sed s/.*release\ // | sed s/\ .*// | awk -F. '{ print $1 }'`
+    REV="6"
 else
     echo "Installation only supported on RedHat and CentOS; exiting installation script"
     exit 1
