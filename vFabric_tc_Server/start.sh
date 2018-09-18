@@ -44,7 +44,7 @@ export JAVA_HOME=${java_home:="/usr"}
 
 if [ -f ${tcserver_home}/${instance_name}/bin/tcruntime-ctl.sh ]; then
     $service_start
-    IS_RUNNING=`/opt/vmware/vfabric-tc-server-standard/bin/tcruntime-ctl.sh status | grep Status | awk -F: '{ print $2 }'`
+    IS_RUNNING=`/opt/vmware/vfabric-tc-server-standard/springtrader/bin/tcruntime-ctl.sh status | grep Status | awk -F: '{ print $2 }'`
     if [[ "${IS_RUNNING}" == *"NOT RUNNING"* ]]; then
         echo "ERROR: ${tcserver_home}/${instance_name} is NOT RUNNING."
         echo "Please check the logs in ${tcserver_home}/${instance_name}/logs for more information"
